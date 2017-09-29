@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/9/28 22:24:16。
+     1>项目“C:\Users\lenovo\Documents\Visual Studio 2013\Projects\SearchEngineProj\SearchEngineProj\SearchEngineProj.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\io\reader.h(25): warning C4018: “>=”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\io\filter.h(61): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\format\gb2312.h(19): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\term.h(38): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\invtable.h(58): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\invtable.h(73): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\invtable.h(87): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\invtable.h(105): warning C4018: “>=”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\invtable.h(106): warning C4018: “>=”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\invtable.h(134): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\lenovo\documents\visual studio 2013\projects\searchengineproj\searchengineproj\core\invtable.h(151): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\SearchEngineProj\Debug\SearchEngineProj.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\SearchEngineProj\Debug\SearchEngineProj.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Documents\Visual Studio 2013\Projects\SearchEngineProj\Debug\SearchEngineProj.lib" /MACHINE:X86 Debug\main.obj
+         SearchEngineProj.vcxproj -> C:\Users\lenovo\Documents\Visual Studio 2013\Projects\SearchEngineProj\Debug\SearchEngineProj.exe
+     1>已完成生成项目“C:\Users\lenovo\Documents\Visual Studio 2013\Projects\SearchEngineProj\SearchEngineProj\SearchEngineProj.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.61
