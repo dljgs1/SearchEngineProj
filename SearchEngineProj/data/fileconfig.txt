@@ -1,0 +1,4 @@
+Cfileconfig data\fileconfig.txt
+Cinverted_table data\inv_data.data
+Canalysis data\analysis.data
+Csentence data\sentence_data.data

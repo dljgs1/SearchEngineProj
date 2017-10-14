@@ -68,5 +68,11 @@
     <ClInclude Include="marco.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="mem\commonfun.h">
+      <Filter>头文件\mem</Filter>
+    </ClInclude>
+    <ClInclude Include="mem\fconf.h">
+      <Filter>头文件\mem</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

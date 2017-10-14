@@ -76,7 +76,9 @@
     <ClInclude Include="io\filter.h" />
     <ClInclude Include="io\reader.h" />
     <ClInclude Include="marco.h" />
+    <ClInclude Include="mem\commonfun.h" />
     <ClInclude Include="mem\dataman.h" />
+    <ClInclude Include="mem\fconf.h" />
     <ClInclude Include="mem\slmem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

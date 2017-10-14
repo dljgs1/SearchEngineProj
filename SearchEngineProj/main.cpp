@@ -6,14 +6,25 @@ using namespace std;
 #include"core\invtable.h"
 #include"mem\dataman.h"
 
+#include <functional>
+
+
 int main(){
+
+	/*vector<int>sort_table(2700,0);
+	vector<Ctemp>arr(2700);
+	for (int i = 0; i < 2700; i++){
+		sort_table[i] = i;
+		arr[i].sum = rand() % 100;
+	}
+	int flag = -1;
+	cout << "start" << endl;
+	vector<Ctemp>&temp = arr;
+	::sort(sort_table.begin(), sort_table.end(), [temp, flag](int a, int b){return flag*temp[a].sum < flag*temp[b].sum; });
+
+	system("pause");*/
 	Cclass_data man;
-	cout << "loading..." << endl;
-	Cinverted_table*tb = man.inv_init();
-	cout << "complete!" << endl;
-	
 	while (man.usr());
-	system("pause");
 	return 0;
 
 	/*·Ö¸îÎÄ¼þ²âÊÔ
