@@ -1,0 +1,44 @@
+<html>
+<body>
+<br>
+<center><h1>新闻搜索</h1></center>
+<hr>
+<center>
+	<form action="catch" method="get">
+		词条：<input type="text" name="Token"><br>
+		<input type="submit" value="搜索吧"><br>
+	</form>
+</center>
+</body>
+
+
+<script type="text/javascript">
+    document.getElementById("demo").innerHTML="hehehhe";
+    var data={
+        'head':'kikay',
+        'content':'123'
+    }
+    ar $SCRIPT_ROOT = {{request.script_root|tojson|safe}};
+    ajaxForm();
+
+    function ajaxForm() {
+		$.ajax({
+			type:'POST',
+			url:$SCRIPT_ROOT,
+			data:data,
+			dataType:'json',//希望服务器返回json格式的数据
+			success:function(data){
+				$("#name").text( data.content );
+			}
+		});
+		return false;
+    }
+</script>
+
+<body>
+        <form action="" method="post", onsubmit="return ajaxForm()">
+            <input type="submit" />
+        </form>
+        <p>Content: <span id="name"></span></p>
+</body>
+</html>

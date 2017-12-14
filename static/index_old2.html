@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  <link rel="shortcut icon" href="favicons/1.png">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+<style>
+body {
+  background-color:black;
+  overflow: hidden;
+}
+canvas {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+
+img {
+  width: 200px;
+}
+header {
+z-index:999;
+}
+</style>
+
+</head>
+<body>
+<canvas id="c_n9" width="1920" height="990" style="position: fixed; top: 0px; left: 0px; z-index: 10; opacity: 0.1;"></canvas>
+  <header class="header" id="header">
+
+    <div class="header-top">
+      <div class="container">
+        <!--<a href="#" class="header-logo"></a>-->
+        <nav class="header-nav">
+          <a href="#" class="item item-cur">最新</a>
+          <a href="#" class="item">最热</a>
+          <a href="#" class="item">关于我们</a>
+        
+         
+        </nav>
+       
+        <div class="search">
+          <form action="catch"  method = "get">
+            <input type="text" name="Token" class="search-text" placeholder="搜索你喜欢的"><br>
+            <input type = "submit" value = " " class="search-btn sprite_icon"><br>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+     <!--    <h2 class="banner-titlte"><img src="images/banner-title_img.svg" alt="#"></h2>-->
+      <div class="search">
+        <form action="catch"  method = "get">
+          <input type="text" name="Token" class="search-text" placeholder="搜索你喜欢的"><br>
+          <input type = "submit" value = " " class="search-btn sprite_icon"><br>
+        </form>
+      </div>
+    
+    </div>
+  
+  </header>
+
+ 
+
+  <script src="js/jquery.js"></script>
+  <script src="js/script.js"></script>
+<canvas id="c" style="z-index:-1;"></canvas>
+
+<script src='js/dat.gui.min.js'></script>
+<script src="js/index.js"></script>
+<script type="text/javascript" src="https://files.cnblogs.com/files/jingmoxukong/canvas-nest.min.js"></script>
+</body>
+</html>
